@@ -8,13 +8,15 @@ array<Player> connPlayers;
 void OnInitialize()
 {
     RegisterCallback(PlayerConnect_c);
-    
-	RegisterCallback(PlayerDisconnect_c);
+    RegisterCallback(PlayerDisconnect_c);
+
+    print(" ");
     print("----------------------------------------------------------------------------");
     print("[SERVER] Connected Players has loaded successfully");
     print("[SERVER] By BelaRain");
     print("[SERVER] The Repository - https://github.com/belarain/cbmrserver_connPlayers");
     print("----------------------------------------------------------------------------");
+    print(" ");
 
 }
 
